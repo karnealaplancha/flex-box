@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  background-color: rgb(169, 144, 214);
+  font-family: monospace;
+  margin: 0 50px;
+}
+p {
+  text-align: justify;
+  line-height: 25px;
+  margin-bottom: 25px;
+}
+img {
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.aside {
+  background-color: rgb(180, 148, 194);
+  flex: 30%;
+  padding: 10%;
+}
+.aside img {
+  width: 50%;
+  margin: 50px auto;
+  display: block;
+}
+section {
+  background-color: rgb(88, 86, 95);
+  flex: 70%;
+  padding: 10px;
+}
+iframe {
+  display: block;
+  margin: auto;
+  width: 80%;
+}
+.tarjetas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.tarjetas .card {
+  background-color: aquamarine;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border: 2px solid palevioletred;
+  border-radius: 20px;
+  box-shadow: 8px 8px;
+  padding: 10px;
+  overflow: auto;
+}
+.tarjetas.contenido.card img {
+  display: block;
+  margin: auto;
+  width: 35%;
+}
+.tarjetas.card.contenido.central{
+    text-align: center;
+    color: navy;
+    border-bottom: 2px solid red;
+    font-size: 20px;
+}
+.cuadro{
+    background-color: rgb(163, 119, 119);
+    display: flex;
+
+}
+.todo{
+  display: flex;
+  justify-content: center;
+  border: 9px solid aquamarine;
+  border-radius: 24px;
+  
+  
+}
+.divdecorados{
+  margin: 30px 30px;
+  border: 3px solid black;
+ 
+}
+.div{
+  border: 8px solid rgb(3, 173, 60);
+  background-color: rgb(223, 105, 227);
+  margin: 8px;
+  border-radius: 29px;
+  padding: 50px;
+  box-shadow: 10px 19px 19px 0px black;
+  }
+  .div h2{
+    background-color: blue;
+  }
+
+
